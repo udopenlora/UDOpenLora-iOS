@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE9D463005A0020E61A51D9 /* Pods_UD_Open_Lora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417A4DC89208DCD571F6A9B7 /* Pods_UD_Open_Lora.framework */; };
+		82BB750A21E33A2200E91CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB750921E33A2200E91CF6 /* AppDelegate.swift */; };
+		82BB750F21E33A2200E91CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BB750D21E33A2200E91CF6 /* Main.storyboard */; };
+		82BB751121E33A2400E91CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BB751021E33A2400E91CF6 /* Assets.xcassets */; };
+		82BB751421E33A2400E91CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BB751221E33A2400E91CF6 /* LaunchScreen.storyboard */; };
+		82BB751F21E33A2400E91CF6 /* UD_Open_LoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB751E21E33A2400E91CF6 /* UD_Open_LoraTests.swift */; };
+		82BB752A21E33A2400E91CF6 /* UD_Open_LoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB752921E33A2400E91CF6 /* UD_Open_LoraUITests.swift */; };
+		82BB753E21E33DF700E91CF6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB753C21E33DF700E91CF6 /* HomeViewController.swift */; };
+		82BB753F21E33DF700E91CF6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BB753D21E33DF700E91CF6 /* HomeViewController.xib */; };
+		82BB754121E33E0800E91CF6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB754021E33E0800E91CF6 /* HomeViewModel.swift */; };
+		82BB754421E33E1A00E91CF6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB754221E33E1A00E91CF6 /* DetailViewController.swift */; };
+		82BB754521E33E1A00E91CF6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BB754321E33E1A00E91CF6 /* DetailViewController.xib */; };
+		82BB754721E33E2900E91CF6 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB754621E33E2900E91CF6 /* DetailViewModel.swift */; };
+		82BB755021E3535400E91CF6 /* CurrentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB754F21E3535400E91CF6 /* CurrentData.swift */; };
+		82BB755421E3538500E91CF6 /* DeviceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB755321E3538500E91CF6 /* DeviceLog.swift */; };
+		82BB755821E353DE00E91CF6 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB755721E353DE00E91CF6 /* Device.swift */; };
+		82BB755A21E354D900E91CF6 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB755921E354D900E91CF6 /* Strings.swift */; };
+		82BB755C21E43B2800E91CF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82BB755B21E43B2700E91CF6 /* GoogleService-Info.plist */; };
+		82BB756021E440CD00E91CF6 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB755E21E440CD00E91CF6 /* DeviceCell.swift */; };
+		82BB756121E440CD00E91CF6 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BB755F21E440CD00E91CF6 /* DeviceCell.xib */; };
+		82BB756321E4425E00E91CF6 /* DeviceCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB756221E4425E00E91CF6 /* DeviceCellViewModel.swift */; };
+		82BB756A21E47A5200E91CF6 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB756821E47A5200E91CF6 /* LogCell.swift */; };
+		82BB756B21E47A5200E91CF6 /* LogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BB756921E47A5200E91CF6 /* LogCell.xib */; };
+		82BB756D21E47D3200E91CF6 /* LogCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB756C21E47D3200E91CF6 /* LogCellViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82BB751B21E33A2400E91CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BB74FE21E33A2200E91CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BB750521E33A2200E91CF6;
+			remoteInfo = "UD Open Lora";
+		};
+		82BB752621E33A2400E91CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82BB74FE21E33A2200E91CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82BB750521E33A2200E91CF6;
+			remoteInfo = "UD Open Lora";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F5DEB110D06F52E7177F239 /* Pods-UD Open Lora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UD Open Lora.release.xcconfig"; path = "Pods/Target Support Files/Pods-UD Open Lora/Pods-UD Open Lora.release.xcconfig"; sourceTree = "<group>"; };
+		417A4DC89208DCD571F6A9B7 /* Pods_UD_Open_Lora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UD_Open_Lora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D4FAC227408359B3EE6AA3 /* Pods-UD Open Lora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UD Open Lora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UD Open Lora/Pods-UD Open Lora.debug.xcconfig"; sourceTree = "<group>"; };
+		82BB750621E33A2200E91CF6 /* UD Open Lora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UD Open Lora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BB750921E33A2200E91CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82BB750E21E33A2200E91CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82BB751021E33A2400E91CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BB751321E33A2400E91CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BB751521E33A2400E91CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BB751A21E33A2400E91CF6 /* UD Open LoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UD Open LoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BB751E21E33A2400E91CF6 /* UD_Open_LoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UD_Open_LoraTests.swift; sourceTree = "<group>"; };
+		82BB752021E33A2400E91CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BB752521E33A2400E91CF6 /* UD Open LoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UD Open LoraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BB752921E33A2400E91CF6 /* UD_Open_LoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UD_Open_LoraUITests.swift; sourceTree = "<group>"; };
+		82BB752B21E33A2400E91CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BB753C21E33DF700E91CF6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		82BB753D21E33DF700E91CF6 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		82BB754021E33E0800E91CF6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		82BB754221E33E1A00E91CF6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		82BB754321E33E1A00E91CF6 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		82BB754621E33E2900E91CF6 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		82BB754F21E3535400E91CF6 /* CurrentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentData.swift; sourceTree = "<group>"; };
+		82BB755321E3538500E91CF6 /* DeviceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLog.swift; sourceTree = "<group>"; };
+		82BB755721E353DE00E91CF6 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		82BB755921E354D900E91CF6 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		82BB755B21E43B2700E91CF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82BB755E21E440CD00E91CF6 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		82BB755F21E440CD00E91CF6 /* DeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		82BB756221E4425E00E91CF6 /* DeviceCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCellViewModel.swift; sourceTree = "<group>"; };
+		82BB756821E47A5200E91CF6 /* LogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		82BB756921E47A5200E91CF6 /* LogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogCell.xib; sourceTree = "<group>"; };
+		82BB756C21E47D3200E91CF6 /* LogCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCellViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BB750321E33A2200E91CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE9D463005A0020E61A51D9 /* Pods_UD_Open_Lora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB751721E33A2400E91CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB752221E33A2400E91CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123A3EF4521C92EE4539F934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417A4DC89208DCD571F6A9B7 /* Pods_UD_Open_Lora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82BB74FD21E33A2200E91CF6 = {
+			isa = PBXGroup;
+			children = (
+				82BB750821E33A2200E91CF6 /* UD Open Lora */,
+				82BB751D21E33A2400E91CF6 /* UD Open LoraTests */,
+				82BB752821E33A2400E91CF6 /* UD Open LoraUITests */,
+				82BB750721E33A2200E91CF6 /* Products */,
+				F8FE9C65F90AD6FE19CE1A95 /* Pods */,
+				123A3EF4521C92EE4539F934 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82BB750721E33A2200E91CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BB750621E33A2200E91CF6 /* UD Open Lora.app */,
+				82BB751A21E33A2400E91CF6 /* UD Open LoraTests.xctest */,
+				82BB752521E33A2400E91CF6 /* UD Open LoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BB750821E33A2200E91CF6 /* UD Open Lora */ = {
+			isa = PBXGroup;
+			children = (
+				82BB754821E350B200E91CF6 /* Define */,
+				82BB753721E33D2E00E91CF6 /* View */,
+				82BB753821E33D3800E91CF6 /* Model */,
+				82BB750921E33A2200E91CF6 /* AppDelegate.swift */,
+				82BB750D21E33A2200E91CF6 /* Main.storyboard */,
+				82BB751021E33A2400E91CF6 /* Assets.xcassets */,
+				82BB751221E33A2400E91CF6 /* LaunchScreen.storyboard */,
+				82BB751521E33A2400E91CF6 /* Info.plist */,
+				82BB755B21E43B2700E91CF6 /* GoogleService-Info.plist */,
+			);
+			path = "UD Open Lora";
+			sourceTree = "<group>";
+		};
+		82BB751D21E33A2400E91CF6 /* UD Open LoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				82BB751E21E33A2400E91CF6 /* UD_Open_LoraTests.swift */,
+				82BB752021E33A2400E91CF6 /* Info.plist */,
+			);
+			path = "UD Open LoraTests";
+			sourceTree = "<group>";
+		};
+		82BB752821E33A2400E91CF6 /* UD Open LoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82BB752921E33A2400E91CF6 /* UD_Open_LoraUITests.swift */,
+				82BB752B21E33A2400E91CF6 /* Info.plist */,
+			);
+			path = "UD Open LoraUITests";
+			sourceTree = "<group>";
+		};
+		82BB753721E33D2E00E91CF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82BB753A21E33DC700E91CF6 /* Home */,
+				82BB753B21E33DD400E91CF6 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82BB753821E33D3800E91CF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82BB754F21E3535400E91CF6 /* CurrentData.swift */,
+				82BB755321E3538500E91CF6 /* DeviceLog.swift */,
+				82BB755721E353DE00E91CF6 /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82BB753A21E33DC700E91CF6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				82BB755D21E4409C00E91CF6 /* DeviceCell */,
+				82BB753C21E33DF700E91CF6 /* HomeViewController.swift */,
+				82BB753D21E33DF700E91CF6 /* HomeViewController.xib */,
+				82BB754021E33E0800E91CF6 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		82BB753B21E33DD400E91CF6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				82BB756721E47A3900E91CF6 /* LogCell */,
+				82BB754221E33E1A00E91CF6 /* DetailViewController.swift */,
+				82BB754321E33E1A00E91CF6 /* DetailViewController.xib */,
+				82BB754621E33E2900E91CF6 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		82BB754821E350B200E91CF6 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				82BB755921E354D900E91CF6 /* Strings.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		82BB755D21E4409C00E91CF6 /* DeviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				82BB755E21E440CD00E91CF6 /* DeviceCell.swift */,
+				82BB755F21E440CD00E91CF6 /* DeviceCell.xib */,
+				82BB756221E4425E00E91CF6 /* DeviceCellViewModel.swift */,
+			);
+			path = DeviceCell;
+			sourceTree = "<group>";
+		};
+		82BB756721E47A3900E91CF6 /* LogCell */ = {
+			isa = PBXGroup;
+			children = (
+				82BB756821E47A5200E91CF6 /* LogCell.swift */,
+				82BB756921E47A5200E91CF6 /* LogCell.xib */,
+				82BB756C21E47D3200E91CF6 /* LogCellViewModel.swift */,
+			);
+			path = LogCell;
+			sourceTree = "<group>";
+		};
+		F8FE9C65F90AD6FE19CE1A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64D4FAC227408359B3EE6AA3 /* Pods-UD Open Lora.debug.xcconfig */,
+				2F5DEB110D06F52E7177F239 /* Pods-UD Open Lora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BB750521E33A2200E91CF6 /* UD Open Lora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BB752E21E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open Lora" */;
+			buildPhases = (
+				AF06A9AEBD91600A10CC833D /* [CP] Check Pods Manifest.lock */,
+				82BB750221E33A2200E91CF6 /* Sources */,
+				82BB750321E33A2200E91CF6 /* Frameworks */,
+				82BB750421E33A2200E91CF6 /* Resources */,
+				B59501E109ABC6FA72525843 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UD Open Lora";
+			productName = "UD Open Lora";
+			productReference = 82BB750621E33A2200E91CF6 /* UD Open Lora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82BB751921E33A2400E91CF6 /* UD Open LoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BB753121E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open LoraTests" */;
+			buildPhases = (
+				82BB751621E33A2400E91CF6 /* Sources */,
+				82BB751721E33A2400E91CF6 /* Frameworks */,
+				82BB751821E33A2400E91CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BB751C21E33A2400E91CF6 /* PBXTargetDependency */,
+			);
+			name = "UD Open LoraTests";
+			productName = "UD Open LoraTests";
+			productReference = 82BB751A21E33A2400E91CF6 /* UD Open LoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82BB752421E33A2400E91CF6 /* UD Open LoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BB753421E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open LoraUITests" */;
+			buildPhases = (
+				82BB752121E33A2400E91CF6 /* Sources */,
+				82BB752221E33A2400E91CF6 /* Frameworks */,
+				82BB752321E33A2400E91CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82BB752721E33A2400E91CF6 /* PBXTargetDependency */,
+			);
+			name = "UD Open LoraUITests";
+			productName = "UD Open LoraUITests";
+			productReference = 82BB752521E33A2400E91CF6 /* UD Open LoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BB74FE21E33A2200E91CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Khoa Bao";
+				TargetAttributes = {
+					82BB750521E33A2200E91CF6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					82BB751921E33A2400E91CF6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 82BB750521E33A2200E91CF6;
+					};
+					82BB752421E33A2400E91CF6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 82BB750521E33A2200E91CF6;
+					};
+				};
+			};
+			buildConfigurationList = 82BB750121E33A2200E91CF6 /* Build configuration list for PBXProject "UD Open Lora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82BB74FD21E33A2200E91CF6;
+			productRefGroup = 82BB750721E33A2200E91CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BB750521E33A2200E91CF6 /* UD Open Lora */,
+				82BB751921E33A2400E91CF6 /* UD Open LoraTests */,
+				82BB752421E33A2400E91CF6 /* UD Open LoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BB750421E33A2200E91CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BB751421E33A2400E91CF6 /* LaunchScreen.storyboard in Resources */,
+				82BB751121E33A2400E91CF6 /* Assets.xcassets in Resources */,
+				82BB754521E33E1A00E91CF6 /* DetailViewController.xib in Resources */,
+				82BB750F21E33A2200E91CF6 /* Main.storyboard in Resources */,
+				82BB753F21E33DF700E91CF6 /* HomeViewController.xib in Resources */,
+				82BB756121E440CD00E91CF6 /* DeviceCell.xib in Resources */,
+				82BB756B21E47A5200E91CF6 /* LogCell.xib in Resources */,
+				82BB755C21E43B2800E91CF6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB751821E33A2400E91CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB752321E33A2400E91CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF06A9AEBD91600A10CC833D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UD Open Lora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59501E109ABC6FA72525843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UD Open Lora/Pods-UD Open Lora-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AI/AI.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UD Open Lora/Pods-UD Open Lora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BB750221E33A2200E91CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BB755821E353DE00E91CF6 /* Device.swift in Sources */,
+				82BB755A21E354D900E91CF6 /* Strings.swift in Sources */,
+				82BB755421E3538500E91CF6 /* DeviceLog.swift in Sources */,
+				82BB756A21E47A5200E91CF6 /* LogCell.swift in Sources */,
+				82BB755021E3535400E91CF6 /* CurrentData.swift in Sources */,
+				82BB754721E33E2900E91CF6 /* DetailViewModel.swift in Sources */,
+				82BB750A21E33A2200E91CF6 /* AppDelegate.swift in Sources */,
+				82BB754421E33E1A00E91CF6 /* DetailViewController.swift in Sources */,
+				82BB756321E4425E00E91CF6 /* DeviceCellViewModel.swift in Sources */,
+				82BB756021E440CD00E91CF6 /* DeviceCell.swift in Sources */,
+				82BB753E21E33DF700E91CF6 /* HomeViewController.swift in Sources */,
+				82BB754121E33E0800E91CF6 /* HomeViewModel.swift in Sources */,
+				82BB756D21E47D3200E91CF6 /* LogCellViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB751621E33A2400E91CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BB751F21E33A2400E91CF6 /* UD_Open_LoraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82BB752121E33A2400E91CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BB752A21E33A2400E91CF6 /* UD_Open_LoraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82BB751C21E33A2400E91CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BB750521E33A2200E91CF6 /* UD Open Lora */;
+			targetProxy = 82BB751B21E33A2400E91CF6 /* PBXContainerItemProxy */;
+		};
+		82BB752721E33A2400E91CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82BB750521E33A2200E91CF6 /* UD Open Lora */;
+			targetProxy = 82BB752621E33A2400E91CF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82BB750D21E33A2200E91CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BB750E21E33A2200E91CF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82BB751221E33A2400E91CF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BB751321E33A2400E91CF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BB752C21E33A2400E91CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82BB752D21E33A2400E91CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BB752F21E33A2400E91CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D4FAC227408359B3EE6AA3 /* Pods-UD Open Lora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMNWCZEPKQ;
+				INFOPLIST_FILE = "UD Open Lora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.udn.openlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82BB753021E33A2400E91CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5DEB110D06F52E7177F239 /* Pods-UD Open Lora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMNWCZEPKQ;
+				INFOPLIST_FILE = "UD Open Lora/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.udn.openlora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82BB753221E33A2400E91CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UD Open LoraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.udn.UD-Open-LoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UD Open Lora.app/UD Open Lora";
+			};
+			name = Debug;
+		};
+		82BB753321E33A2400E91CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UD Open LoraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.udn.UD-Open-LoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UD Open Lora.app/UD Open Lora";
+			};
+			name = Release;
+		};
+		82BB753521E33A2400E91CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UD Open LoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.udn.UD-Open-LoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UD Open Lora";
+			};
+			name = Debug;
+		};
+		82BB753621E33A2400E91CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "UD Open LoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.udn.UD-Open-LoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UD Open Lora";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BB750121E33A2200E91CF6 /* Build configuration list for PBXProject "UD Open Lora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BB752C21E33A2400E91CF6 /* Debug */,
+				82BB752D21E33A2400E91CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BB752E21E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open Lora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BB752F21E33A2400E91CF6 /* Debug */,
+				82BB753021E33A2400E91CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BB753121E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open LoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BB753221E33A2400E91CF6 /* Debug */,
+				82BB753321E33A2400E91CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BB753421E33A2400E91CF6 /* Build configuration list for PBXNativeTarget "UD Open LoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BB753521E33A2400E91CF6 /* Debug */,
+				82BB753621E33A2400E91CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BB74FE21E33A2200E91CF6 /* Project object */;
+}
